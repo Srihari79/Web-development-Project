@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h1 style="color:solid black;text-align:center;" text-align="center">Register your details</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <br>
+    <style>
+           body
+               {
+               background-color:LightBlue
+               }
+</style>
+   
+</head>
+ <body>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="aboutusregistration.html">About us</a>
+   <a href="aminitiesregistration.html">Aminities</a>
+   <a href="contactregistration.html">Contact us</a>
+</div>
+<br>
+<br>
+<br>
+       <h1 style="color:red;text-align:center;" class="center" ></h1>
+      <form method="post" action="./Registrationservlet">
+                  <table class="center">    
+                      
+                        <tr>
+            <td>
+            First Name:</td>
+            <td><input type="text" name="f_name" placeholder="First Name" ></td>
+            </tr>                    
+                        <tr>
+            <td>
+            Last Name:</td>
+            <td><input type="text" name="l_name" placeholder="Last Name" ></td>
+            </tr>  
+                         <tr>
+            <td>
+            Phone Number</td>
+            <td><input type="text" name="phone" placeholder="Phone Number" ></td>
+            </tr>   
+                         <tr>
+            <td>
+            Email</td>
+            <td><input type="email" name="email" placeholder="Email" ></td>
+            </tr> 
+                         <tr>
+            <td>
+            From:</td>
+            <td><input type="date" name="from_date" id ="from"  ></td>
+            </tr> 
+                        <tr>
+            <td>
+            To:</td>
+            <td><input type="date" name="to_date" id ="to"  ></td>
+            </tr>
+                        <tr>
+                      <td>No of Adults :</td>
+                      <td><select name="adults">
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                      </select></td>
+                      </tr>
+                      <tr>
+                      <td>No of Children :</td>
+                      <td><select name="children">
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                      </select></td>
+                      </tr>
+                      <tr>
+                      <td>Preferred Room Type :</td>
+                      <td><select name="room">
+                                  <option value="AC">Ac</option>
+                                  <option value="NOAC">Non AC</option>
+                      </select></td>
+                      </tr>   
+                      <tr>
+                      <td>Preferred Bed Type :</td>
+                      <td><select name="bed">
+                                  <option value="SingleBedRoom">Single Bed</option>
+                                  <option value="DoubleBedRoom">Double Bed</option>
+                      </select></td>
+                      <tr>
+                      <td style="padding:5px"><input type="submit" name="btn_login" value="Submit"></td>
+                      <td style="padding:5px"><input type="reset" value="Reset"></td>
+                      </tr>
+
+      </form>
+
+ </body>
+</html>

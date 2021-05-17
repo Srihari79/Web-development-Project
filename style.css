@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 2px ;
+  padding: 5px;
+  background: url(file:///C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%209.0/webapps/surya/images/registrationimage.jpg);
+    background-size: top-right;
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+  
+}
+
+footer{
+    border: 2px solid white;
+  padding: 5px;
+  background: url(file:///C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%209.0/webapps/surya/images/registrationimage.jpg);
+    background-size: top-right;
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+  text-align: below;
+}
+
+#form{
+    background-color: #000;
+    height:400px;
+    width:800px;
+    margin: auto;
+    margin-top: 100px;
+    opacity:0.7;
+}
+#first-group{
+    border:none;
+    width:400px;
+    margin-top: 38px;
+    position: absolute;
+}
+#content{
+    border: 1px solid #fff;
+    margin:10px;
+    margin-left: 8px;
+    padding:5px;
+}
+#content #input-group{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:300px;
+    color:#fff;
+}
+::placeholder{
+    color:#fff;
+}
+.fa{
+    display:inline-block;
+    color:red;
+    border-right:2px  blue;
+    padding:8px;
+    margin-left: 8px;
+}
+#second-group{
+    border:none;
+    width:400px;
+    margin-top: 55px;
+    margin-left:200px;
+}
+#submit-btn{
+    margin-top: 30px;
+    margin-left: 400px;
+    background: transparent;
+    color:#fff;
+    width:150px;
+    border:1px solid red;
+    outline:none;
+    padding:10px;
+    font-size: 20px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: bottom;
+    width: 51%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h2 ,ul {text-align: center;}
+
+
+
+
+  /* table at center*/
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    box-align: top;
+  }
+  /* menu bar*/
+  body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.topnav a {
+  float: left;
+  color: #000;
+  background-color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #000;
+  color: white;
+}
+
+.topnav a {
+  background-color: #000;
+  color: white;
+}
